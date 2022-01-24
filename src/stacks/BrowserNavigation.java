@@ -111,7 +111,8 @@ public class BrowserNavigation
 		// NOTE: An example of testing the boundary condition when back links stack is empty
 		//final String FILENAME = "resources/popEmptyStackOfLinks.txt";
 
-		// final String FILENAME = ??
+		//An example of testing the boundary condition when forward links stack is empty
+		//final String FILENAME = "resources/myLinks.txt";
 
 		BrowserNavigation bn = new BrowserNavigation();
 		Navigator navigator = bn.getNavigationFeature();
