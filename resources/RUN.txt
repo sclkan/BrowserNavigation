@@ -402,3 +402,127 @@ Forward with 4 links
 Done with BrowserNavigation.
 
 Process finished with exit code 0
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/myLinks.txt
+
+NOTES: Testing attempts to remove item from empty Forward stack.
+---------------------------------------------------
+
+
+At line #1: link www.nba.com
+Current Link: www.nba.com
+
+Back with 0 links
+[]
+
+Forward with 0 links
+[]
+
+
+At line #2: link www.yahoo.com
+Current Link: www.yahoo.com
+
+Back with 1 links
+[www.nba.com]
+
+Forward with 0 links
+[]
+
+
+At line #3: link www.espn.com
+Current Link: www.espn.com
+
+Back with 2 links
+[www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+
+At line #4: link www.youtube.com
+Current Link: www.youtube.com
+
+Back with 3 links
+[www.espn.com, www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+CAN'T GO ANY FURTHER
+
+At line #5: forward
+Current Link: www.youtube.com
+
+Back with 3 links
+[www.espn.com, www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+
+At line #6: back
+Current Link: www.espn.com
+
+Back with 2 links
+[www.yahoo.com, www.nba.com]
+
+Forward with 1 links
+[www.youtube.com]
+
+
+At line #7: back
+Current Link: www.yahoo.com
+
+Back with 1 links
+[www.nba.com]
+
+Forward with 2 links
+[www.espn.com, www.youtube.com]
+
+
+At line #8: forward
+Current Link: www.espn.com
+
+Back with 2 links
+[www.yahoo.com, www.nba.com]
+
+Forward with 1 links
+[www.youtube.com]
+
+
+At line #9: link www.foothill.edu
+Current Link: www.foothill.edu
+
+Back with 3 links
+[www.espn.com, www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+CAN'T GO ANY FURTHER
+
+At line #10: forward
+Current Link: www.foothill.edu
+
+Back with 3 links
+[www.espn.com, www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+
+
+At the end of test file resources/myLinks.txt
+Current Link: www.foothill.edu
+
+Back with 3 links
+[www.espn.com, www.yahoo.com, www.nba.com]
+
+Forward with 0 links
+[]
+
+Done with BrowserNavigation.
+
+Process finished with exit code 0
