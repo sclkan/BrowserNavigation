@@ -18,6 +18,9 @@ src/stacks/StackList.java
 resources/links.txt
     - A list of links
 
+resources/myLinks.txt
+    - A list of links that can test the boundary condition when the forward links stack is empty
+
 resources/popEmptyStackOfLinks.txt
     - A list of links that can test the boundary condition when the back links stack is empty
 
