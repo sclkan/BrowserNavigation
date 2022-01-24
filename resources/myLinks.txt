@@ -1,0 +1,10 @@
+link www.nba.com
+link www.yahoo.com
+link www.espn.com
+link www.youtube.com
+forward
+back
+back
+forward
+link www.foothill.edu
+forward
